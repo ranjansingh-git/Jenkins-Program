@@ -6,8 +6,9 @@ public class Main {
 			System.out.println("This is Java program");
 			System.out.println("Output from Java Program");
 			System.out.println(new Date());
-			System.out.println("Hello 123456");
-			System.out.println("This is second commit");
-			System.out.println("This is third commit");
+			System.out.println("Hello 123");
+			
+			Student student = new Student();
+			student.sayHello();
 		}
 }
